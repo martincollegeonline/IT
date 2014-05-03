@@ -1,4 +1,4 @@
-namespace UnitTestsBLLTests
+﻿namespace UnitTestsBLLTests
 {
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

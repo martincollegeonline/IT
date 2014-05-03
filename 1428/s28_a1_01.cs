@@ -1,4 +1,4 @@
-namespace UnitTestingBLL.Model
+﻿namespace UnitTestingBLL.Model
 {
          using System.Collections.Generic;
          public class User
