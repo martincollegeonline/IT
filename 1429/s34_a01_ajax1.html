@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<title>Simple AJAX</title>
+	<script language="JavaScript" type="text/javascript">
+		
+		function getXmlHttpRequestObject() {
+			if (window.XMLHttpRequest) {
+				return new XMLHttpRequest();
+			} else if(window.ActiveXObject) {
+				return new ActiveXObject("Microsoft.XMLHTTP");
+			} else {
+				alert("Your browser doesn't want to use AJAX");
+			}
+		}
+		
+		varreceiveReq = getXmlHttpRequestObject();
+		
+		function sayHello(datafile) {
+			if (receiveReq.readyState == 4 || receiveReq.readyState == 0) {
+				receiveReq.open("GET", datafile, true);
+				receiveReq.onreadystatechange = handleSayHello;
+				receiveReq.send(null);
+			}
+		}
+		
+		functionhandleSayHello() { //Called every time the XmlHttpRequest state changes.
+			if (receiveReq.readyState == 4) { //Check to see if it is finished, 4 indicates it has.
+				document.getElementById('div1').innerHTML = receiveReq.responseText;
+			}
+		}
+		
+		</script>
+	</head>
+	<body>
+		<div>
+			<p>This is a normal paragraph in the web page.
+		</div>
+		<a href="javascript:sayHello('data.xml');">Click to update the data</a><br />
+		<div id="div1"></div>
+	</body>
+</html>
