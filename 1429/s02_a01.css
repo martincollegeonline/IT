@@ -1,0 +1,17 @@
+#box1 {
+	width:200px;
+	height:100px;
+	padding:10px;
+	border:2px solid #CCC;
+	margin:10px;
+}
+
+#box2 {
+	width:200px;
+	height:100px;
+	padding-top:10px;
+	padding-right:2px;
+	padding-bottom:5px;
+	padding-left:10px;
+	margin:20px 50px 40px 100px;
+}
