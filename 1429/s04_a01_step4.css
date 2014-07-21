@@ -1,0 +1,26 @@
+#container {
+	width:960px; 
+	height:900px;
+	background-color: #9DE9FF;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 130px;
+	margin-bottom: 40px;
+}
+
+#content1 {
+	width:520px;
+	height: 860px;
+	padding:20px;
+	background-color: #FFF;
+	float: left;
+}
+
+#content2 {
+	width:350px;
+	height: 860px;
+	padding:20px;
+	background-color: #B8EFFF;
+	margin-left: 10px;
+	float: left;
+}

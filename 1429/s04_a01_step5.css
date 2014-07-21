@@ -1,0 +1,27 @@
+#header_links a:link {
+	color:#B8EFFF;
+	background-color: #50AAC3;
+	text-decoration:none;
+	padding-left:10px; 
+	padding-right:10px;
+}
+
+#header_links a:visited {
+	color:#B8EFFF;
+	background-color: #50AAC3;
+	text-decoration:none;
+	padding-left:10px; 
+	padding-right:10px;
+}
+
+#header_links a:hover {
+	color:#CEF4FF;
+	background-color:#90C5D4;
+	text-decoration:none;
+}
+
+#header_links a:active {
+	color:black;
+	background-color: #50AAC3;
+	text-decoration:none;
+}

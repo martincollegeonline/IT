@@ -1,0 +1,16 @@
+#logo {
+	width:176px;
+	height: 76px;
+	padding: 12px;
+	/* background-color: pink; */
+	float: left;
+	font-family: impact,sans-serif;
+	font-size: 4em;
+}
+
+#header_links {
+	width:320px; height: 20px;
+	/* background-color: pink; */
+	float: right;
+	margin-top: 80px;
+}

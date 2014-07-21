@@ -1,0 +1,24 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: #CEF4FF;
+}
+
+#header {
+	width:100%; 
+	height:120px;
+	position:fixed; 
+	left:0px; 
+	top:0px;
+	background-color: #90C5D4;
+}
+
+#header_content {
+	width:960px; 
+	height: 100px;
+	background-color: #B8EFFF;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 10px; 
+	margin-bottom: 10px;
+}
