@@ -1,0 +1,1 @@
+students.Remove( "Peter" );
