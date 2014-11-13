@@ -1,0 +1,1 @@
+private string sql_string; private string strCon; System.Data.SqlClient.SqlDataAdapter da_1;
