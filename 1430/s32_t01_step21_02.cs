@@ -1,0 +1,1 @@
+ds.Tables[0].Rows.Count; 

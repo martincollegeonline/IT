@@ -1,0 +1,1 @@
+objConnect.connection_string = conString; 

@@ -1,0 +1,1 @@
+objConnect.Sql = Properties.Settings.Default.SQL; 
