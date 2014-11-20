@@ -1,0 +1,34 @@
+<div data-role="page" id="home">
+
+    <div data-role="header" data-position="fixed">
+        <h1>Simple ToDo Tasks</h1>
+        <nav data-role="navbar">
+        <ul>
+            <li><a href="#home" data-transition="flow">List</a></li>
+            <li><a href="#create" data-transition="flow">Create</a></li>
+            <li><a href="#customise" data-transition="flow">Customise</a></li>
+            <li><a href="#version" data-transition="slidedown">Version</a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <div role="main" class="ui-content">
+        <ul id="incompleteTaskList" data-role="listview" data-inset="true" data-divider-theme="a">
+            <li data-role="list-divider">Incomplete Tasks</li>
+            <li class="task-item"><a href="#view">Go shopping today</a></li>
+            <li class="task-item"><a href="#view">Feed the cat</a></li>
+        </ul>
+        <ul id="completeTaskList" data-role="listview" data-inset="true" data-divider-theme="a">
+            <li data-role="list-divider">Completed Tasks</li>
+            <li class="task-item"><a href="#view">Record important tv show</a></li>
+            <li class="task-item"><a href="#view">Ring parents</a></li>
+        </ul>
+        <a href="#" data-role="button" class="refresh-list">Refresh</a>
+    </div>
+
+    <div data-role="footer">
+        <h4>Powered by jQuery Mobile</h4>
+    </div>
+
+</div>
+
