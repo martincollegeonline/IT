@@ -1,0 +1,11 @@
+{  
+   "name":"case-study-two",
+   "description":"hello world test app",
+   "version":"0.0.1",
+   "private":true,
+   "dependencies":{  
+      "body-parser":"x",
+      "express":"4.x",
+      "xml2js":"x"
+   }
+}
