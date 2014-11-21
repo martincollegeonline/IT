@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>A Simple Application</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style type="text/css">
+        .mob-container { width:380px;height:620px;border:1px #000 solid;margin:auto auto auto auto; }
+        .mob-container .mob-inner { padding:10px; }
+    </style>
+</head>
+<body>
+<div class="mob-container">
+    <div class="mob-inner">
+
+        <h1>Welcome to jQuery</h1>
+        <div id="content_1" class="content-block">
+            <h2>Ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in bibendum velit. Mauris commodo sed diam in tincidunt. Suspendisse eget porttitor eros. Phasellus volutpat justo ut nulla lacinia iaculis. In tempus imperdiet diam, ac fermentum lorem semper in. Integer arcu dui, pretium sit amet consectetur eget.</p>
+        </div>
+        <div id="content_2" class="content-block">
+            <h2>Donec in bibendum velit</h2>
+            <p>Morbi nisi nibh, congue non ullamcorper eu, luctus at metus. Maecenas viverra, quam quis tincidunt aliquam, eros mauris bibendum mi, pretium luctus mi lorem at magna. Aenean mattis dapibus augue, vel hendrerit dolor. Pellentesque ullamcorper velit odio, vitae fringilla purus lobortis a. </p>
+        </div>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            // Loop through each content block class
+            $().each(function(){
+                // Hide the p tags
+                $(this).find().hide();
+            });
+        });
+        </script>
+
+    </div>
+</div>
+</body>
+</html>
+
